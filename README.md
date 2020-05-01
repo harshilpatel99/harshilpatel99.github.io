@@ -1,2 +1,2 @@
-# harshilpatel99.github.io
-My portfolio website
+# https://harshilpatel99.github.io
+My personal website
