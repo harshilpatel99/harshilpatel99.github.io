@@ -2711,7 +2711,7 @@ h6 {
     padding: 0px 30px;
     line-height: 38px; }
   .feature_item:hover {
-    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 10px 20px 0px #8490ff;
     border-color: #fff;
     background: #fff; }
     .feature_item:hover i:before {
@@ -2783,7 +2783,7 @@ h6 {
     .personal_text .personal_social li a {
       line-height: 40px;
       width: 40px;
-      background: #e8e8e8;
+      background: #a8a8a8;
       border-radius: 5px;
       display: inline-block;
       text-align: center;
