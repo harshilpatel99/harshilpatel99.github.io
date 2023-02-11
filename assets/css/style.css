@@ -146,7 +146,36 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
+body {
+background-color: #f8faff !important; }
+
+
+.pseudoPolka::after{
+  position: fixed;
+  content:'';
+  height: 40%;
+  width: 10%;
+  bottom: 0%;
+  right: 5%;
+  z-index: -100;
+  background-image:  radial-gradient(#FFB185  20%, transparent 20%);
+  background-position: 0 0, 50px 50px;
+  background-size: 15px 15px;
+}
+
+.polkaDotsBg::after{
+  position: fixed;
+  content:'';
+  height: 55%;
+  width: 12%;
+  top: -15%;
+  left: 6%;
+  z-index: -100;
+  background-image:  radial-gradient(#766dff  20%, transparent 20%);
+  background-position: 0 0, 50px 50px;
+  background-size: 15px 15px;
+}
+
 
 
 
@@ -396,6 +425,8 @@ main {
 } */
 
 .info-content .title ion-icon { font-size: 16px; }
+
+
 
 .info-content .title:hover { background: var(--bg-gradient-yellow-1); color: #ffffff;}
 
